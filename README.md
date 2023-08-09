@@ -28,19 +28,13 @@ Follow these steps to run the Candle Shop program:
 
 ## Table of Contents
 
-
-- [Getting Started](#getting-started)
 - [Classes](#classes)
     - [Candle Class](#candle-class)
     - [Inventory Class](#inventory-class)
     - [Sales Class](#sales-class)
     - [Customer Class](#customer-class)
-- [Running the Program](#running-the-program)
 
-## Getting Started
 
-1. Clone or download this repository to your local machine.
-2. Open the project in your preferred IDE or text editor.
 
 ## Classes
 
@@ -74,7 +68,7 @@ The `Customer` class represents a customer:
 - `address` (String): Address of the customer.
 - `phone` (String): Phone number of the customer.
 
-## Running the Program
+
 
 1. Compile the Java files: `javac CandleShopApp.java`
 2. Run the program: `java CandleShopApp`
