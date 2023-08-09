@@ -2,25 +2,40 @@
 
 This Java program manages inventory, sales, and customer information for a Candle Shop. It allows users to add, update, and view candle stock, track sales, manage customers, and generate reports. The program utilizes a console-based user interface and file handling to persist data.
 
+## How to Run
+
+Follow these steps to run the Candle Shop program:
+
+1. **Prerequisites:** Before you begin, ensure you have the following:
+
+   - Java Development Kit (JDK)
+   - IntelliJ
+
+2. **Getting Started:**
+
+   - Clone or download this repository to your local machine.
+   - Open the project in your preferred IDE or IntelliJ.
+
+3. **Compile and Run:**
+
+   - Open a terminal or command prompt.
+   - Navigate to the directory where you saved the project files.
+   - Compile the Java files: `javac CandleShopApp.java`
+   - Run the program: `java CandleShopApp`
+
+   The program will execute and provide you with a console-based interface to interact with the Candle Shop.
+
+
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+
 - [Getting Started](#getting-started)
 - [Classes](#classes)
     - [Candle Class](#candle-class)
     - [Inventory Class](#inventory-class)
     - [Sales Class](#sales-class)
     - [Customer Class](#customer-class)
-- [User Interface](#user-interface)
-- [File Handling](#file-handling)
 - [Running the Program](#running-the-program)
-
-## Prerequisites
-
-Before you begin, ensure you have the following:
-
-- Java Development Kit (JDK)
-- Text Editor or Integrated Development Environment (IDE)
 
 ## Getting Started
 
@@ -59,22 +74,6 @@ The `Customer` class represents a customer:
 - `address` (String): Address of the customer.
 - `phone` (String): Phone number of the customer.
 
-## User Interface
-
-Implement a console-based user interface to interact with the program. Options could include:
-
-1. Add new candle to inventory.
-2. Update candle information.
-3. View inventory.
-4. Record a sale.
-5. Manage customers.
-6. Generate reports.
-7. Exit.
-
-## File Handling
-
-Use file handling to persist data between program sessions. Implement methods to read and write data to/from files for inventory, sales, and customer information.
-
 ## Running the Program
 
 1. Compile the Java files: `javac CandleShopApp.java`
@@ -82,4 +81,4 @@ Use file handling to persist data between program sessions. Implement methods to
 
 ---
 
-This README provides a comprehensive guide to the Candle Shop program. Follow the steps outlined above to build and run the program, and adapt the code and structure to further develop your project. Good luck with your Candle Shop endeavor!
+This README provides a comprehensive guide to the Candle Shop program. 
